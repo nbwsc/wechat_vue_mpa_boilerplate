@@ -37,6 +37,7 @@ a {
 .floatbottom {
   position: fixed;
   bottom: 0px;
+  width: 100%;
   padding: 10px 0px;
   background-color: #fff;
 }

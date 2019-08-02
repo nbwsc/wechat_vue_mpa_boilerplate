@@ -1,2 +1,2 @@
 # wechat_vue_mpa_boilerplate
-微信/企业微信 轻量多页面 vue 模板
+wechat/ wechat work MPA(multi-page-application) based on vue without webpack.
