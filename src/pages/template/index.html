@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>wechat_vue_mpa_boilerplate</title>
+    <!-- vConsole cdn; remove this in prod env-->
+    <script src="http://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.3.0"></script>
+    <script>
+      const vConsole = new VConsole();
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://res.wx.qq.com/open/libs/weui/2.0.1/weui.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../../style/comm.css" />
+    <script
+      type="text/javascript"
+      src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"
+    ></script>
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
+    <!-- use vue-dev.js in dev mod,use vue-prod.js in prod mod -->
+    <script src="../../lib/vue-dev.js"></script>
+  </head>
+  <body>
+    <!-- lib scripts -->
+    <script src="../../lib/sha1.js"></script>
+    <script src="../../lib/util.js"></script>
+    <script src="../../lib/auth.js"></script>
+
+    <!-- add components here -->
+    <script src="../../components/search.js"></script>
+
+    <!-- main app -->
+    <div id="app">
+      <!-- add your template here -->
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
